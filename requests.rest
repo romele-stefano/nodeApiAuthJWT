@@ -4,5 +4,5 @@ Content-Type: application/json
 {
   "name": "nox",
   "email": "testemail@nox.com",
-  "password": "noxpwd"
+  "password": "no"
 }
