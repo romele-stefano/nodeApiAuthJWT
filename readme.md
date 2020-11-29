@@ -22,6 +22,9 @@
   8.2 create validation.js file
 9. pwd encryption
   9.1 install bcryptjs
+10. jwt
+  10.1 install jsonwebtoken
+  10.2 add env variable inside .env file
 
 
 
