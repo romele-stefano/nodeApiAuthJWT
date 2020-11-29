@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 const dotenv = require('dotenv')
 // import routes
 const authRoute = require('./routes/auth.js')
+const postRoute = require('./routes/posts.js')
 
 // initialized dotenv
 dotenv.config()
@@ -18,6 +19,7 @@ app.use(express.json()) // in order to send json inside http requests
 
 // route middlewares
 app.use('/api/user', authRoute) // everything in the authRoute will have api/user as prefix
+app.use('/api/posts', postRoute)
 
 
 // start server on port 3000
