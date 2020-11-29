@@ -20,8 +20,10 @@
 8. create validation for the data model
   8.1 install Joi (npm i @hapi/joi)
   8.2 create validation.js file
+9. pwd encryption
+  9.1 install bcryptjs
 
 
 
-40 MINUTES
+
    
